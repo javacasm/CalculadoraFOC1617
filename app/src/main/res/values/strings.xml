@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CalculadoraFOC1617</string>
+    <string name="valorInicial">0</string>
+    <string name="txt7">7</string>
+    <string name="txt8">8</string>
+    <string name="txt9">9</string>
+    <string name="txt4">4</string>
+    <string name="txt5">5</string>
+    <string name="txt6">6</string>
+    <string name="txt3">3</string>
+    <string name="txt2">2</string>
+    <string name="txt1">1</string>
+    <string name="txtMas">+</string>
+    <string name="txtMenos">-</string>
+    <string name="txtIgual">=</string>
+    <string name="txtBorrado">C</string>
+</resources>
