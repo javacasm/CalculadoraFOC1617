@@ -21,6 +21,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         tvVisor=(TextView)findViewById(R.id.tvVisor);
 
+        // Vamos a establecer "por codigo" el listener de los botones
+        Button bt1=(Button)findViewById(R.id.bt1);
+        bt1.setOnClickListener(this); // Usamos la referencia al propio activity
+
+        // TODO: hacerlo con todos los demas botones. 2 formas de hacer:
+        //              * Crear un array con los ids y recorrerlo en un bucle for
+        //              * Buscar una referencia al TableLayout y recorrer recursivamente los controles y sus hijos
+        //                  asignando a todos aquellos que sean botones el listener
     }
 
 
