@@ -2,4 +2,4 @@
 
 Proyecto calculadora
 
-![diseño](./images/Calculadora.png
+![diseño](./images/Calculadora.png)
