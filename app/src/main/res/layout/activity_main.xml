@@ -7,27 +7,30 @@
     android:layout_height="match_parent"
     tools:context="com.foc.pmdm.u2.calculadorafoc1617.MainActivity">
 
-    <TextView
-        android:id="@+id/tvVisor"
-        android:layout_width="368dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:text="@string/valorInicial"
-
-        android:textSize="40dp"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="16dp" />
-
     <TableLayout
         android:layout_width="368dp"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="72dp">
 
+        <TextView
+            android:id="@+id/tvVisor"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/valorInicial"
+
+            android:textAlignment="viewEnd"
+            android:textSize="40dp"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="16dp" />
+
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+
 
             <Button
                 android:id="@+id/bt7"
